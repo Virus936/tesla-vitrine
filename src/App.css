@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+  font-family: "rubik", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:rbb( 255, 235, 248 ) ;
+}
+.App{
+  scroll-behavior:smooth;
+  scroll-snap-type:y mandatory;
+  overflow-y:scroll;
+  height:100vh;
+}
