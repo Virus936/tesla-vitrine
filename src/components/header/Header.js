@@ -22,6 +22,7 @@ const Container = styled.header`
   background-color: transparent;
   padding:0 20px;
   height:60px;
+  z-index:1000;
 `
 
 export default Header;
